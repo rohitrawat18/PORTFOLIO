@@ -1,11 +1,9 @@
-import React from 'react'
+import { section } from "framer-motion/client";
 
-const Home = () => {
-  return (
-    <div className='w-full h-screen'>
-      Home
-    </div>
+export default function Home (){
+  return(
+    <section id="home" className="w-full h-screen relative bg-black overflow-hidden">
+
+    </section>
   )
 }
-
-export default Home
