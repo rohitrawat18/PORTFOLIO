@@ -13,7 +13,7 @@ import CustomCursor from "./components/CustomCursor"; // Add this
 export default function App() {
   return (
     <div className="relative gradient text-white">
-      <ParticlesBackground />
+      {/*<ParticlesBackground />*/}
       <CustomCursor />
 
       <Navbar />
